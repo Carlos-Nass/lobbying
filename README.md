@@ -1,3 +1,11 @@
+### Links Importantes
+
+Backend: https://github.com/Carlos-Nass/lobbying_backend
+Frontend: **In progress**
+
+Jira 
+
+
 # Lobbying
 
 O ambiente empresarial está cada vez mais dinâmico e competitivo, a gestão eficaz dos recursos humanos é essencial para o sucesso organizacional. O Lobbying visa desenvolver uma plataforma tecnológica para facilitar a filtragem de vagas baseado no perfil comportamental do usuário.
@@ -65,3 +73,31 @@ RNF-007 - O sistema deve ter facilidade de manutenção e atualização do siste
 ## Diagrama de Classe
 
 ![Diagrama em branco (4)](https://github.com/user-attachments/assets/232730c3-be91-4053-820f-d0128b1fb42b)
+
+# Stack Tecnológica
+
+Nessa parte do documento será abordado o conjunto de tecnologias, ferramentas e frameworks que serão utilizadas para desenvolver e executar o projeto. Ela abrange todas as camadas necessárias, desde o desenvolvimento do front-end e back-end até a infraestrutura subjacente. 
+
+## Linguagens de Programação:
+
+*Java*: Foi selecionada a linguagem Java para desenvolver os serviços principais devido à sua ampla adoção, robustez, segurança e portabilidade. A vasta quantidade de recursos e bibliotecas disponíveis também facilita o desenvolvimento e manutenção do código.
+
+## Frameworks e Bibliotecas:
+
+*Spring Boot*: Será utilizado o Spring Boot para desenvolver os serviços Java, aproveitando sua simplicidade, produtividade e recursos integrados, como injeção de dependência, segurança, e suporte a APIs RESTful.
+
+*React.js*: Para o desenvolvimento do frontend, foi escopado o React.js devido à sua eficiência, flexibilidade e robustez. A abordagem de componentes reutilizáveis facilita a construção de interfaces de usuário interativas e responsivas.
+
+## Banco de Dados:
+
+*Postgres*: Foi decidido o uso do Postgres como banco de dados relacional para armazenar dados estruturados, devido à sua confiabilidade, desempenho e ampla adoção na indústria.
+
+## Ferramentas de Desenvolvimento e Gestão de Projeto:
+
+*IDEs*: Será utilizado IntelliJ IDEA para desenvolvimento Java e Visual Studio Code para desenvolvimento React e Node.js devido à sua ampla gama de recursos, integração com ferramentas de controle de versão e suporte a plugins.
+
+*Controle de Versão*: Foi selecionado o Git como sistema de controle de versão distribuído, hospedado em plataformas como GitHub.
+
+*Ferramentas de Gestão de Projeto*: Para gestão de projetos, será usado metodologias ágeis, como Kanban, e ferramentas como Jira para planejamento de tarefas e acompanhamento de progresso.
+
+*Ferramentas de CI/CD*: Será implementado pipelines de integração contínua e entrega contínua (CI/CD) utilizando ferramentas como o Jenkins para automatizar o processo de compilação, teste e implantação do código em ambientes de produção.
