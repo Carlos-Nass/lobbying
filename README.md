@@ -1,2 +1,3 @@
-# lobbying
-Repositório central do projeto de portfolio Lobbying
+# Lobbying
+
+O projeto "Lobbying" propõe o desenvolvimento de uma plataforma tecnológica para aprimorar a gestão de recursos humanos, com ênfase na filtragem de vagas baseada no perfil comportamental dos candidatos. A solução visa atender à crescente demanda por processos seletivos mais eficazes e precisos, utilizando tecnologias avançadas como inteligência artificial e análise de dados. O sistema oferece recursos para cadastro de usuários, realização e processamento de testes de personalidade, e recomendação de vagas compatíveis com o perfil comportamental identificado. Além disso, o projeto enfrenta desafios relacionados à segurança da informação, privacidade dos dados, e escalabilidade, garantindo conformidade com regulamentações como GDPR e LGPD.
