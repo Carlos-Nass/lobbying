@@ -2,7 +2,7 @@
 
 Backend: https://github.com/Carlos-Nass/lobbying_backend
 
-Frontend: **In progress**
+Frontend: https://github.com/Carlos-Nass/lobbying-frontend
 
 Jira: https://lobbying.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMzU1ZmExYWJhOWM1NGNmYmE5MDZiMTBhYTgxYjMxNmUiLCJwIjoiaiJ9
 
