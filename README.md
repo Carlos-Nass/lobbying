@@ -1,12 +1,3 @@
-### Links Importantes
-
-Backend: https://github.com/Carlos-Nass/lobbying_backend
-
-Frontend: https://github.com/Carlos-Nass/lobbying-frontend
-
-Jira: https://lobbying.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMzU1ZmExYWJhOWM1NGNmYmE5MDZiMTBhYTgxYjMxNmUiLCJwIjoiaiJ9
-
-
 # Lobbying
 
 O ambiente empresarial está cada vez mais dinâmico e competitivo, a gestão eficaz dos recursos humanos é essencial para o sucesso organizacional. O Lobbying visa desenvolver uma plataforma tecnológica para facilitar a filtragem de vagas baseado no perfil comportamental do usuário.
@@ -15,90 +6,82 @@ O ambiente empresarial está cada vez mais dinâmico e competitivo, a gestão ef
 
 O objetivo principal do Lobbying é desenvolver e implementar uma solução para facilitar a gestão de recursos humanos dentro das organizações. A plataforma resultante visa oferecer fácil acesso a vagas disponíveis e cadastradas dentro do próprio sistema, realizando uma filtragem customizada baseada no perfil do usuário.
 
-### Problemas a resolver
+## Autor
 
-**Falta de perfil de candidatos**: Um dos problemas na seleção de candidatos para vagas é que uma empresa necessita de um perfil específico para uma vaga e com os sistemas de hoje em dia é difícil saber o perfil de uma pessoa antes de realizar uma entrevista.
+ * Carlos Eduardo Nass
 
-**Foco em resultados**: Ao evitar entrevistas desnecessárias com candidatos promissores apenas no currículo, usuário apenas conseguiriam visualizar vagas apenas que se encaixam com seu perfil comportamental.
+# Frontend
 
-## Requisitos
+![image](https://github.com/user-attachments/assets/a4354773-2f59-4681-a453-cf4c25ca4d1e) ![image](https://github.com/user-attachments/assets/d11304fa-03c7-4ac7-ab43-6bc2f6314010) ![image](https://github.com/user-attachments/assets/842a6587-b231-4c46-8a49-f4ce02188f19) ![image](https://github.com/user-attachments/assets/30b55bfd-22de-4739-9039-7bc90de867b9) ![image](https://github.com/user-attachments/assets/8d8e366b-0182-48eb-9b73-c0ed79725ee8) ![image](https://github.com/user-attachments/assets/c0d6739c-ce6e-4fbd-895f-074e09e25c14)
 
-### Requisitos funcionais
+## Tecnologias e Ferramentas
 
-RF-001 - O sistema deve permitir o cadastro de usuários.
+ * **React**: Biblioteca principal para construção da interface de usuário.
+ * **Axios**: Para fazer requisições HTTP.
+ * **Jest**: Framework de testes utilizado para realizar testes unitários.
+ * **Ant Design**: Framework de UI utilizado para componentes e estilos.
+ * **ESLint**: Ferramenta de linting para garantir a qualidade e padronização do código.
 
-RF-002 - O sistema deve mostrar os testes de personalidade disponíveis para o usuário 
+# Backend
 
-RF-003 - O sistema deve receber dados dos testes de comportamento e processá-los.
+![image](https://github.com/user-attachments/assets/be2bbe6c-0370-4d51-b7e2-86b86056e20a) ![image](https://github.com/user-attachments/assets/ca38ca6a-22b5-4bac-b427-332c9a718218) ![image](https://github.com/user-attachments/assets/5aa520b8-e60b-4e2a-8758-f17db212b1d5) ![image](https://github.com/user-attachments/assets/21abaa9b-3b0a-49b1-824e-86af8e66213b) ![image](https://github.com/user-attachments/assets/6a544931-1165-418f-b3d7-b89f946596b4)
 
-RF-004 - O sistema deve ser capaz de recomendar vagas baseado no perfil comportamental.
+## Tecnologias e Ferramentas
 
-RF-005 - O sistema deve permitir o armazenamento dos resultados dos testes e das vagas cadastradas no sistema.
+ * **Java**: Linguagem de programação de propósito geral, orientada a objetos.
+ * **Spring Boot**: Framework para construir aplicações Java de forma rápida e eficiente.
+ * **JUnit**: Framework para realizar testes automatizados em Java.
+ * **Mockito**: Biblioteca para simulação de objetos em testes unitários.
+ * **Swagger**: Ferramenta para documentação de APIs RESTful.
 
-RF-006 - O sistema deve liberar uma próxima avaliação nos testes de personalidade apenas três meses depois da realização inicial.
+# Banco de Dados
 
-### Requisitos Não-Funcionais 
+![image](https://github.com/user-attachments/assets/29e318d9-5880-4358-8185-cdd6b494d00a)
 
-RNF-001 - O sistema deve fornecer segurança tais como proteção de dados sensíveis dos funcionários, garantindo conformidade com regulamentações de privacidade, como GDPR (Regulamento Geral de Proteção de Dados) e LGPD (Lei Geral de Proteção de Dados).
+# Cloud
 
-RNF-002 - O sistema deve ter controle de acesso baseado em papéis para garantir que apenas usuários autorizados tenham acesso a informações confidenciais.
+![image](https://github.com/user-attachments/assets/d6d728be-ef0a-4929-957b-0a943d0c8e9a)
 
-RNF-003 - O sistema deve ter resposta rápida, mesmo em períodos de pico de uso.
+# Virtualização
 
-RNF-004 - O sistema deve ter capacidade de lidar com grandes volumes de dados, especialmente em empresas com muitos funcionários
+![image](https://github.com/user-attachments/assets/d8a4bda8-0235-4d9d-928b-0dd27ed8f2d7)
 
-RNF-005 - O sistema deve ter uma interface intuitiva e amigável para facilitar o uso por parte dos usuários.
+# IA
 
-RNF-006 - O sistema deve ser capaz de escalar o sistema conforme a demanda cresce.
+![image](https://github.com/user-attachments/assets/8b0cc598-714b-4d9e-a5aa-59bd82a15013)
 
-RNF-007 - O sistema deve ter facilidade de manutenção e atualização do sistema, incluindo correções de bugs e implementação de novos recursos.
+## Ferramentas de Desenvolvimento
 
-## Casos de Uso
+ * **Code Review**: SonarCloud
+ * **Continuous Deployment (CD)**: Github Actions
+ * **Continuous Integration (CI)**: SonarCloud Quality Gate
+ * **Monitoramento**: Grafana e Prometheus
 
-![Diagrama de caso de uso (1)](https://github.com/user-attachments/assets/abc3a582-30df-41e3-8bd9-f359888c5fc3)
+# Links
 
-## Modelo C4
+## Aplicação
 
-### Nível 1
+ * [**Lobbying**](https://thelobbying.tech/login): Link da Aplicação.
 
-![image5](https://github.com/user-attachments/assets/c4b0d772-8970-4dac-80bf-70ff250f8e3a)
+## Documentação
 
-### Nível 2 
+ * [**Wiki do Projeto**](https://github.com/Carlos-Nass/lobbying/wiki): Link da Wiki do projeto.
+ * **Documentação da API (Swagger)**: Link da Documentação da API.
 
-![image3](https://github.com/user-attachments/assets/f2a7bad4-cdaa-4eaf-a5ca-5977c159b927)
+## Repositórios
 
-### Nível 3
+ * [**Repositório do Backend**](https://github.com/Carlos-Nass/lobbying_backend): Link do repositório do back-end.
+ * [**Repositório do Frontend**](https://github.com/Carlos-Nass/lobbying-frontend): Link do repositório do front-end.
 
-![Cópia de Diagrama em branco](https://github.com/user-attachments/assets/ba2d4ae3-2f17-454d-aa1e-8142c5e07579)
+## Monitoramento
 
-## Diagrama de Classe
+ * [**Grafana**](http://localhost:3000/goto/gUnMcd7Hg?orgId=1): Link para o painel de visualização de dados e métricas. (usuário: admin, senha: admin)
+ * [**SonarCloud - BackEnd**](https://sonarcloud.io/project/overview?id=Carlos-Nass_lobbying_backend): Link do SonarCloud do Back-end.
+ * [**SonarCloud - FrontEnd**](https://sonarcloud.io/project/overview?id=Carlos-Nass_lobbying-frontend): Link do SonarCloud do Front-end.
 
-![Diagrama em branco (4)](https://github.com/user-attachments/assets/232730c3-be91-4053-820f-d0128b1fb42b)
+## Ferramentas de Colaboração
 
-# Stack Tecnológica
+ * [**Jira**](https://lobbying.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiMzU1ZmExYWJhOWM1NGNmYmE5MDZiMTBhYTgxYjMxNmUiLCJwIjoiaiJ9): Link do Jira para gerenciamento de tarefas.
 
-Nessa parte do documento será abordado o conjunto de tecnologias, ferramentas e frameworks que serão utilizadas para desenvolver e executar o projeto. Ela abrange todas as camadas necessárias, desde o desenvolvimento do front-end e back-end até a infraestrutura subjacente. 
 
-## Linguagens de Programação:
 
-*Java*: Foi selecionada a linguagem Java para desenvolver os serviços principais devido à sua ampla adoção, robustez, segurança e portabilidade. A vasta quantidade de recursos e bibliotecas disponíveis também facilita o desenvolvimento e manutenção do código.
-
-## Frameworks e Bibliotecas:
-
-*Spring Boot*: Será utilizado o Spring Boot para desenvolver os serviços Java, aproveitando sua simplicidade, produtividade e recursos integrados, como injeção de dependência, segurança, e suporte a APIs RESTful.
-
-*React.js*: Para o desenvolvimento do frontend, foi escopado o React.js devido à sua eficiência, flexibilidade e robustez. A abordagem de componentes reutilizáveis facilita a construção de interfaces de usuário interativas e responsivas.
-
-## Banco de Dados:
-
-*Postgres*: Foi decidido o uso do Postgres como banco de dados relacional para armazenar dados estruturados, devido à sua confiabilidade, desempenho e ampla adoção na indústria.
-
-## Ferramentas de Desenvolvimento e Gestão de Projeto:
-
-*IDEs*: Será utilizado IntelliJ IDEA para desenvolvimento Java e Visual Studio Code para desenvolvimento React e Node.js devido à sua ampla gama de recursos, integração com ferramentas de controle de versão e suporte a plugins.
-
-*Controle de Versão*: Foi selecionado o Git como sistema de controle de versão distribuído, hospedado em plataformas como GitHub.
-
-*Ferramentas de Gestão de Projeto*: Para gestão de projetos, será usado metodologias ágeis, como Kanban, e ferramentas como Jira para planejamento de tarefas e acompanhamento de progresso.
-
-*Ferramentas de CI/CD*: Será implementado pipelines de integração contínua e entrega contínua (CI/CD) utilizando ferramentas como o Jenkins para automatizar o processo de compilação, teste e implantação do código em ambientes de produção.
