@@ -66,7 +66,7 @@ O objetivo principal do Lobbying é desenvolver e implementar uma solução para
 ## Documentação
 
  * [**Wiki do Projeto**](https://github.com/Carlos-Nass/lobbying/wiki): Link da Wiki do projeto.
- * **Documentação da API (Swagger)**: Link da Documentação da API.
+ * [**Documentação da API (Swagger)**](https://thelobbying.tech/api/swagger-ui/index.html): Link da Documentação da API.
 
 ## Repositórios
 
